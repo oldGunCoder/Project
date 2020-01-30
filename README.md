@@ -3,4 +3,4 @@
 
 Basic layout template
 
-![Basic layout template](https://imgur.com/QKShSw5)
+![Basic layout template](//i.imgur.com/QKShSw5.png)
