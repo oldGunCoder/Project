@@ -5,6 +5,7 @@ Basic layout template
 ![Basic layout template](https://i.imgur.com/QKShSw5.png)
 
 Basic register/login template
+
 ![Basic login template](https://i.imgur.com/mK0aDPm.png)
 
 
