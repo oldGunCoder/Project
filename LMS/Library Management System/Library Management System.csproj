@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TemplateLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateLogin.Designer.cs">
+      <DependentUpon>TemplateLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Template.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     </Compile>
     <EmbeddedResource Include="Template.resx">
       <DependentUpon>Template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateLogin.resx">
+      <DependentUpon>TemplateLogin.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

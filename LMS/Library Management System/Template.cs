@@ -52,7 +52,16 @@ namespace Library_Management_System
             materialListView1.Items.Add(listViewItem3);
             materialListView1.Items.Add(listViewItem4);
             materialListView1.Items.Add(listViewItem5);
+        }
 
+        private void materialButton8_Click(object sender, EventArgs e)
+        {
+            //Close main form
+            this.Hide();
+            //Open login form
+            var form2 = new TemplateLogin();
+            form2.Closed += (s, args) => this.Close();
+            form2.Show();
         }
     }
 }

@@ -69,14 +69,14 @@
             this.materialListView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.materialListView1.FullRowSelect = true;
             this.materialListView1.HideSelection = false;
-            this.materialListView1.Location = new System.Drawing.Point(0, 200);
+            this.materialListView1.Location = new System.Drawing.Point(0, 206);
             this.materialListView1.MinimumSize = new System.Drawing.Size(200, 100);
             this.materialListView1.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialListView1.MouseState = MaterialSkin.MouseState.OUT;
             this.materialListView1.Name = "materialListView1";
             this.materialListView1.OwnerDraw = true;
             this.materialListView1.ShowGroups = false;
-            this.materialListView1.Size = new System.Drawing.Size(1020, 568);
+            this.materialListView1.Size = new System.Drawing.Size(1020, 414);
             this.materialListView1.TabIndex = 0;
             this.materialListView1.UseCompatibleStateImageBehavior = false;
             this.materialListView1.View = System.Windows.Forms.View.Details;
@@ -228,7 +228,7 @@
             // 
             this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.materialTextBox1.Depth = 0;
-            this.materialTextBox1.Font = new System.Drawing.Font("Roboto", 12F);
+            this.materialTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.materialTextBox1.Location = new System.Drawing.Point(248, 12);
             this.materialTextBox1.MaxLength = 50;
             this.materialTextBox1.MouseState = MaterialSkin.MouseState.OUT;
@@ -351,13 +351,14 @@
             this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton8.UseAccentColor = true;
             this.materialButton8.UseVisualStyleBackColor = true;
+            this.materialButton8.Click += new System.EventHandler(this.materialButton8_Click);
             // 
             // Template
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1020, 768);
+            this.ClientSize = new System.Drawing.Size(1020, 620);
             this.Controls.Add(this.materialButton8);
             this.Controls.Add(this.materialButton7);
             this.Controls.Add(this.materialButton5);
