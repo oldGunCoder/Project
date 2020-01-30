@@ -1,6 +1,9 @@
 # Project
 .Net project
 
+Quick first draft of the project design.
+Not final design. Need to implement margin and padding for better scalability of controls.
+
 Basic layout template
 ![Basic layout template](https://i.imgur.com/QKShSw5.png)
 
