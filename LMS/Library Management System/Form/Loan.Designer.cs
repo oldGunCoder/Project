@@ -57,7 +57,7 @@
             this.comboBox_Status = new System.Windows.Forms.ComboBox();
             this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton4 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
+            this.btn_New = new MaterialSkin.Controls.MaterialButton();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
             this.lbl_TotalRecords = new System.Windows.Forms.Label();
@@ -422,25 +422,26 @@
             this.materialButton4.UseAccentColor = true;
             this.materialButton4.UseVisualStyleBackColor = true;
             // 
-            // materialButton1
+            // btn_New
             // 
-            this.materialButton1.AutoEllipsis = true;
-            this.materialButton1.AutoSize = false;
-            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton1.Depth = 0;
-            this.materialButton1.DrawShadows = true;
-            this.materialButton1.HighEmphasis = true;
-            this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(14, 152);
-            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton1.Name = "materialButton1";
-            this.materialButton1.Size = new System.Drawing.Size(76, 36);
-            this.materialButton1.TabIndex = 20;
-            this.materialButton1.Text = "+ New";
-            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton1.UseAccentColor = false;
-            this.materialButton1.UseVisualStyleBackColor = true;
+            this.btn_New.AutoEllipsis = true;
+            this.btn_New.AutoSize = false;
+            this.btn_New.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_New.Depth = 0;
+            this.btn_New.DrawShadows = true;
+            this.btn_New.HighEmphasis = true;
+            this.btn_New.Icon = null;
+            this.btn_New.Location = new System.Drawing.Point(14, 152);
+            this.btn_New.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_New.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_New.Name = "btn_New";
+            this.btn_New.Size = new System.Drawing.Size(76, 36);
+            this.btn_New.TabIndex = 20;
+            this.btn_New.Text = "+ New";
+            this.btn_New.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_New.UseAccentColor = false;
+            this.btn_New.UseVisualStyleBackColor = true;
+            this.btn_New.Click += new System.EventHandler(this.btn_New_Click);
             // 
             // materialButton2
             // 
@@ -523,7 +524,7 @@
             this.Controls.Add(this.comboBox_RecordsPerPage);
             this.Controls.Add(this.lbl_TotalRecords);
             this.Controls.Add(this.materialCard1);
-            this.Controls.Add(this.materialButton1);
+            this.Controls.Add(this.btn_New);
             this.Controls.Add(this.materialButton2);
             this.Controls.Add(this.btn_logout);
             this.Controls.Add(this.btn_Settings);
@@ -577,7 +578,7 @@
         private System.Windows.Forms.ComboBox comboBox_Status;
         private MaterialSkin.Controls.MaterialButton materialButton3;
         private MaterialSkin.Controls.MaterialButton materialButton4;
-        private MaterialSkin.Controls.MaterialButton materialButton1;
+        private MaterialSkin.Controls.MaterialButton btn_New;
         private MaterialSkin.Controls.MaterialButton materialButton2;
         private MaterialSkin.Controls.MaterialCard materialCard1;
         private System.Windows.Forms.Label lbl_TotalRecords;

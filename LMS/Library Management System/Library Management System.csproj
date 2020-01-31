@@ -50,6 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entity\Example.cs" />
+    <Compile Include="Form\NewLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\NewLoan.Designer.cs">
+      <DependentUpon>NewLoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form\Loan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form\NewLoan.resx">
+      <DependentUpon>NewLoan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

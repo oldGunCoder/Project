@@ -53,6 +53,11 @@ namespace Library_Management_System
 
         }
 
-       
+        private void btn_New_Click(object sender, EventArgs e)
+        {
+            //create FormNewLoan object frmNewLoan in memory
+            NewLoan newLoan = new NewLoan();
+            newLoan.Show();
+        }
     }
 }
