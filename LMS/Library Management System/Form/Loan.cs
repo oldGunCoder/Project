@@ -32,9 +32,7 @@ namespace Library_Management_System
             materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
 
 
-            //Remove this. For demo purpose only
-            //Set comboBox index to 0
-            materialComboBox1.SelectedIndex = 0;
+
 
             //Add stuff to the listbox. Dirty way
             string[] row1 = { "Hq", "Hq", "Hq", "Hq", "Hq", "Hq" };
@@ -54,5 +52,7 @@ namespace Library_Management_System
             materialListView1.Items.Add(listViewItem5);
 
         }
+
+       
     }
 }
