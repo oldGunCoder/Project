@@ -1,6 +1,6 @@
 ﻿namespace Library_Management_System
 {
-    partial class Template
+    partial class Loan
     {
         /// <summary>
         /// Required designer variable.

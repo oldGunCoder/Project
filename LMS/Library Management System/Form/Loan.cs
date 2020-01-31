@@ -17,9 +17,9 @@ using System.Windows.Forms;
 namespace Library_Management_System
 {
     // We are using inheriting :MaterialForm not the default :Form
-    public partial class Template : MaterialForm
+    public partial class Loan : MaterialForm
     {
-        public Template()
+        public Loan()
         {
             InitializeComponent();
 

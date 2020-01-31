@@ -49,11 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Template.cs">
+    <Compile Include="Entity\Example.cs" />
+    <Compile Include="Form\Loan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Template.Designer.cs">
-      <DependentUpon>Template.cs</DependentUpon>
+    <Compile Include="Form\Loan.Designer.cs">
+      <DependentUpon>Loan.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -66,8 +67,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Template.resx">
-      <DependentUpon>Template.cs</DependentUpon>
+    <EmbeddedResource Include="Form\Loan.resx">
+      <DependentUpon>Loan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -82,6 +83,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entity\Entity models in here %28Book, Loan, User,Setting%29.txt" />
+    <Content Include="Form\Forms will go here.txt" />
+    <Content Include="Helper\Helper classes here if needed.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
