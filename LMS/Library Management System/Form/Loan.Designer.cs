@@ -55,10 +55,10 @@
             this.dateTimePicker_ReturnDate = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker_DueDate = new System.Windows.Forms.DateTimePicker();
             this.comboBox_Status = new System.Windows.Forms.ComboBox();
-            this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton4 = new MaterialSkin.Controls.MaterialButton();
+            this.btn_Search = new MaterialSkin.Controls.MaterialButton();
+            this.btn_Reset = new MaterialSkin.Controls.MaterialButton();
             this.btn_New = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
+            this.btn_Delete = new MaterialSkin.Controls.MaterialButton();
             this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
             this.lbl_TotalRecords = new System.Windows.Forms.Label();
             this.comboBox_RecordsPerPage = new System.Windows.Forms.ComboBox();
@@ -382,45 +382,47 @@
             this.comboBox_Status.Size = new System.Drawing.Size(377, 28);
             this.comboBox_Status.TabIndex = 17;
             // 
-            // materialButton3
+            // btn_Search
             // 
-            this.materialButton3.AutoEllipsis = true;
-            this.materialButton3.AutoSize = false;
-            this.materialButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton3.Depth = 0;
-            this.materialButton3.DrawShadows = true;
-            this.materialButton3.HighEmphasis = true;
-            this.materialButton3.Icon = null;
-            this.materialButton3.Location = new System.Drawing.Point(728, 144);
-            this.materialButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton3.Name = "materialButton3";
-            this.materialButton3.Size = new System.Drawing.Size(96, 34);
-            this.materialButton3.TabIndex = 18;
-            this.materialButton3.Text = "Search";
-            this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton3.UseAccentColor = false;
-            this.materialButton3.UseVisualStyleBackColor = true;
+            this.btn_Search.AutoEllipsis = true;
+            this.btn_Search.AutoSize = false;
+            this.btn_Search.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_Search.Depth = 0;
+            this.btn_Search.DrawShadows = true;
+            this.btn_Search.HighEmphasis = true;
+            this.btn_Search.Icon = null;
+            this.btn_Search.Location = new System.Drawing.Point(728, 144);
+            this.btn_Search.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_Search.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_Search.Name = "btn_Search";
+            this.btn_Search.Size = new System.Drawing.Size(96, 34);
+            this.btn_Search.TabIndex = 18;
+            this.btn_Search.Text = "Search";
+            this.btn_Search.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_Search.UseAccentColor = false;
+            this.btn_Search.UseVisualStyleBackColor = true;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
-            // materialButton4
+            // btn_Reset
             // 
-            this.materialButton4.AutoEllipsis = true;
-            this.materialButton4.AutoSize = false;
-            this.materialButton4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton4.Depth = 0;
-            this.materialButton4.DrawShadows = true;
-            this.materialButton4.HighEmphasis = true;
-            this.materialButton4.Icon = null;
-            this.materialButton4.Location = new System.Drawing.Point(869, 144);
-            this.materialButton4.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton4.Name = "materialButton4";
-            this.materialButton4.Size = new System.Drawing.Size(96, 34);
-            this.materialButton4.TabIndex = 19;
-            this.materialButton4.Text = "Reset";
-            this.materialButton4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton4.UseAccentColor = true;
-            this.materialButton4.UseVisualStyleBackColor = true;
+            this.btn_Reset.AutoEllipsis = true;
+            this.btn_Reset.AutoSize = false;
+            this.btn_Reset.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_Reset.Depth = 0;
+            this.btn_Reset.DrawShadows = true;
+            this.btn_Reset.HighEmphasis = true;
+            this.btn_Reset.Icon = null;
+            this.btn_Reset.Location = new System.Drawing.Point(869, 144);
+            this.btn_Reset.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_Reset.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_Reset.Name = "btn_Reset";
+            this.btn_Reset.Size = new System.Drawing.Size(96, 34);
+            this.btn_Reset.TabIndex = 19;
+            this.btn_Reset.Text = "Reset";
+            this.btn_Reset.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_Reset.UseAccentColor = true;
+            this.btn_Reset.UseVisualStyleBackColor = true;
+            this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
             // 
             // btn_New
             // 
@@ -443,31 +445,32 @@
             this.btn_New.UseVisualStyleBackColor = true;
             this.btn_New.Click += new System.EventHandler(this.btn_New_Click);
             // 
-            // materialButton2
+            // btn_Delete
             // 
-            this.materialButton2.AutoEllipsis = true;
-            this.materialButton2.AutoSize = false;
-            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton2.Depth = 0;
-            this.materialButton2.DrawShadows = true;
-            this.materialButton2.HighEmphasis = true;
-            this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(112, 152);
-            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton2.Name = "materialButton2";
-            this.materialButton2.Size = new System.Drawing.Size(76, 36);
-            this.materialButton2.TabIndex = 21;
-            this.materialButton2.Text = "Delete";
-            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton2.UseAccentColor = true;
-            this.materialButton2.UseVisualStyleBackColor = true;
+            this.btn_Delete.AutoEllipsis = true;
+            this.btn_Delete.AutoSize = false;
+            this.btn_Delete.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_Delete.Depth = 0;
+            this.btn_Delete.DrawShadows = true;
+            this.btn_Delete.HighEmphasis = true;
+            this.btn_Delete.Icon = null;
+            this.btn_Delete.Location = new System.Drawing.Point(112, 152);
+            this.btn_Delete.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_Delete.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_Delete.Name = "btn_Delete";
+            this.btn_Delete.Size = new System.Drawing.Size(76, 36);
+            this.btn_Delete.TabIndex = 21;
+            this.btn_Delete.Text = "Delete";
+            this.btn_Delete.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_Delete.UseAccentColor = true;
+            this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // materialCard1
             // 
             this.materialCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard1.Controls.Add(this.materialButton3);
-            this.materialCard1.Controls.Add(this.materialButton4);
+            this.materialCard1.Controls.Add(this.btn_Search);
+            this.materialCard1.Controls.Add(this.btn_Reset);
             this.materialCard1.Controls.Add(this.comboBox_Status);
             this.materialCard1.Controls.Add(this.dateTimePicker_DueDate);
             this.materialCard1.Controls.Add(this.dateTimePicker_ReturnDate);
@@ -525,7 +528,7 @@
             this.Controls.Add(this.lbl_TotalRecords);
             this.Controls.Add(this.materialCard1);
             this.Controls.Add(this.btn_New);
-            this.Controls.Add(this.materialButton2);
+            this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.btn_logout);
             this.Controls.Add(this.btn_Settings);
             this.Controls.Add(this.btn_Users);
@@ -576,10 +579,10 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker_ReturnDate;
         private System.Windows.Forms.DateTimePicker dateTimePicker_DueDate;
         private System.Windows.Forms.ComboBox comboBox_Status;
-        private MaterialSkin.Controls.MaterialButton materialButton3;
-        private MaterialSkin.Controls.MaterialButton materialButton4;
+        private MaterialSkin.Controls.MaterialButton btn_Search;
+        private MaterialSkin.Controls.MaterialButton btn_Reset;
         private MaterialSkin.Controls.MaterialButton btn_New;
-        private MaterialSkin.Controls.MaterialButton materialButton2;
+        private MaterialSkin.Controls.MaterialButton btn_Delete;
         private MaterialSkin.Controls.MaterialCard materialCard1;
         private System.Windows.Forms.Label lbl_TotalRecords;
         private System.Windows.Forms.ComboBox comboBox_RecordsPerPage;

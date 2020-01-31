@@ -59,5 +59,26 @@ namespace Library_Management_System
             NewLoan newLoan = new NewLoan();
             newLoan.Show();
         }
+
+        //delect the selected line in the listview table area and interact with SQL
+        private void btn_Delete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //show the selected record from SQL on the listview area
+        private void btn_Search_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //clear the txt input in the searching area
+        private void btn_Reset_Click(object sender, EventArgs e)
+        {
+            txtbx_Book.Text = "";
+            txtbx_Member.Text = "";
+            comboBox_Status.Text = "";
+        }
     }
 }
